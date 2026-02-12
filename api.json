@@ -1,0 +1,15 @@
+{
+  "id": "van-meter-visitor",
+  "name": "Van Meter Visitor",
+  "category": "CRYPTID",
+  "subcategory": "Winged_Creature",
+  "version": "1.0.0",
+  "last_updated": "2026-01-14",
+  "status": "documented",
+  "has_readme": true,
+  "has_sources": true,
+  "has_media": false,
+  "has_sightings": false,
+  "source_count": "50+",
+  "documentation_quality": "comprehensive"
+}
