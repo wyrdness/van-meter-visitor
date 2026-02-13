@@ -1,15 +1,126 @@
 {
-  "id": "van-meter-visitor",
-  "name": "Van Meter Visitor",
-  "category": "CRYPTID",
-  "subcategory": "Winged_Creature",
-  "version": "1.0.0",
-  "last_updated": "2026-01-14",
-  "status": "documented",
-  "has_readme": true,
-  "has_sources": true,
-  "has_media": false,
-  "has_sightings": false,
-  "source_count": "50+",
-  "documentation_quality": "comprehensive"
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-02-13",
+    "repository": "https://github.com/wyrdness/van-meter-visitor",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+  "phenomenon": {
+    "id": "van-meter-visitor",
+    "name": "Van Meter Visitor",
+    "aliases": [],
+    "category": "CRYPTID",
+    "subcategory": "Winged Humanoid",
+    "tags": [
+      "folklore",
+      "mythology"
+    ],
+    "status": "documented",
+    "description": {
+      "summary": "The **Van Meter Visitor** is one of America's most peculiar and well-documented cryptid encounters, occurring over five consecutive nights in September 1903 in the small town of Van Meter, Iowa.",
+      "full": "The **Van Meter Visitor** is one of America's most peculiar and well-documented cryptid encounters, occurring over five consecutive nights in September 1903 in the small town of Van Meter, Iowa. Unlike many cryptid reports that span decades with inconsistent descriptions, the Van Meter Visitor represents a concentrated series of sightings by multiple credible witnesses who all described an identical creature: a large, winged being with a distinctive horn or light projecting from its forehead that emitted a powerful, offensive odor. Standing approximately 8 feet tall with leathery bat-like wings spanning 12-15 feet, the creature terrorized the town of roughly 800 residents, appearing each night between September 29 and October 3, 1903. What makes this case particularly compelling is the caliber of witnesses—including the town doctor, a bank cashier, a hardware store owner, the town's leading merchant, and a local businessman—all of whom independently provided consistent descriptions. These were not anonymous reports or second-hand tales, but firsthand accounts from respected community members who had their reputations on the line. The creature's most distinctive feature was the bright light it projected from a blunt horn on its forehead, described as being \\\"as bright as an electric headlight\\\" or \\\"like a powerful searchlight.\\\" This bioluminescent feature, combined with its nocturnal habits, large size, and offensive smell, has made the Van Meter Visitor one of cryptozoology's most enigmatic cases. After five nights of escalating encounters that culminated in a dramatic confrontation at an abandoned coal mine, the creature vanished and was never seen again in Van Meter. The 1903 sightings were extensively covered in contemporary newspapers across Iowa and neighboring states, providing valuable historical documentation. The story was largely forgotten until the early 21st century when researchers rediscovered the original newspaper accounts and the case experienced a revival of interest. Today, Van Meter embraces its cryptid heritage with an annual \\\"Visitor's Day\\\" festival and maintains the story as a source of local pride and tourism."
+    },
+    "etymology": {
+      "origin": "American (Iowa), September 29 - October 3, 1903",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
+    }
+  },
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Winged Humanoid",
+      "subtype": "Unknown",
+      "variant": "Unknown"
+    },
+    "related_phenomena": []
+  },
+  "characteristics": {
+    "physical": {
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
+    },
+    "abilities": [],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
+  },
+  "distribution": {
+    "range": {
+      "description": "American (Iowa), September 29 - October 3, 1903",
+      "continents": [],
+      "countries": [],
+      "regions": []
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
+    }
+  },
+  "history": {
+    "origins": {
+      "cultural_roots": "American (Iowa), September 29 - October 3, 1903",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
+    },
+    "timeline": []
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
+  "cultural": {
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
+    },
+    "popular_culture": {
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
+    }
+  },
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
