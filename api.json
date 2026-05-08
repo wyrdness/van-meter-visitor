@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/van-meter-visitor",
     "maintainers": [
       {
@@ -16,111 +16,312 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "van-meter-visitor",
     "name": "Van Meter Visitor",
-    "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "Winged Humanoid",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Van Meter Monster", "region": "Van Meter, Iowa, USA", "meaning": "Common alternate name used in local and cryptozoological sources" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Winged humanoid",
+    "tags": [
+      "winged-humanoid",
+      "iowa",
+      "cryptid",
+      "1903",
+      "bioluminescent",
+      "multiple-witnesses",
+      "coal-mine",
+      "historical",
+      "united-states"
+    ],
+    "status": "historical",
     "description": {
-      "summary": "The **Van Meter Visitor** is one of America's most peculiar and well-documented cryptid encounters, occurring over five consecutive nights in September 1903 in the small town of Van Meter, Iowa.",
-      "full": "The **Van Meter Visitor** is one of America's most peculiar and well-documented cryptid encounters, occurring over five consecutive nights in September 1903 in the small town of Van Meter, Iowa. Unlike many cryptid reports that span decades with inconsistent descriptions, the Van Meter Visitor represents a concentrated series of sightings by multiple credible witnesses who all described an identical creature: a large, winged being with a distinctive horn or light projecting from its forehead that emitted a powerful, offensive odor. Standing approximately 8 feet tall with leathery bat-like wings spanning 12-15 feet, the creature terrorized the town of roughly 800 residents, appearing each night between September 29 and October 3, 1903. What makes this case particularly compelling is the caliber of witnesses—including the town doctor, a bank cashier, a hardware store owner, the town's leading merchant, and a local businessman—all of whom independently provided consistent descriptions. These were not anonymous reports or second-hand tales, but firsthand accounts from respected community members who had their reputations on the line. The creature's most distinctive feature was the bright light it projected from a blunt horn on its forehead, described as being \\\"as bright as an electric headlight\\\" or \\\"like a powerful searchlight.\\\" This bioluminescent feature, combined with its nocturnal habits, large size, and offensive smell, has made the Van Meter Visitor one of cryptozoology's most enigmatic cases. After five nights of escalating encounters that culminated in a dramatic confrontation at an abandoned coal mine, the creature vanished and was never seen again in Van Meter. The 1903 sightings were extensively covered in contemporary newspapers across Iowa and neighboring states, providing valuable historical documentation. The story was largely forgotten until the early 21st century when researchers rediscovered the original newspaper accounts and the case experienced a revival of interest. Today, Van Meter embraces its cryptid heritage with an annual \\\"Visitor's Day\\\" festival and maintains the story as a source of local pride and tourism."
+      "summary": "The Van Meter Visitor is a winged creature reported by multiple witnesses in Van Meter, Iowa over five consecutive nights in late September to early October 1903; witnesses described a large, dark, winged humanoid with a bioluminescent horn projecting from its forehead and a powerful offensive odor.",
+      "full": "The Van Meter Visitor refers to a series of creature sightings in the small town of Van Meter, Iowa (population approximately 800 in 1903) over five consecutive nights beginning September 29, 1903. The accounts were reported by multiple respected community members — including a local businessman (Ulysses G. Griffith), a bank cashier (Clarence Dunn), and other identified townspeople — who independently described an identical creature: a large, winged, dark-colored being with a distinctive horn or projection on its forehead that emitted a bright, powerful beam of light described as 'as bright as an electric headlight.' The creature also reportedly emitted a powerful offensive odor. Witnesses who fired at the creature reported that their shots had no apparent effect. The encounters escalated over five nights, with multiple groups of townspeople confronting the creature. The climactic encounter occurred at an abandoned coal mine shaft on the outskirts of town, where the creature (and reportedly a second specimen) disappeared into the mine and was not seen again. Three-toed footprints found near the mine were documented and apparently cast in plaster. The 1903 sightings were covered by contemporary Iowa newspapers including the Des Moines Daily News, providing documentary evidence of the immediate reporting. The case was largely forgotten until the early 21st century when researchers — notably Chad Lewis, Noah Voss, and Kevin Lee Nelson — rediscovered the original newspaper accounts and published them (The Van Meter Visitor, 2013). Van Meter now celebrates its cryptid heritage with an annual festival."
     },
     "etymology": {
-      "origin": "American (Iowa), September 29 - October 3, 1903",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Named after Van Meter, Iowa, the small town where the sightings occurred in 1903.",
+      "meaning": "'Van Meter Visitor' was not a contemporary 1903 term; it was coined by later researchers. Contemporary newspaper reports described 'the monster' or 'the creature.'",
+      "first_use": "1903 newspaper reports (contemporary); 'Van Meter Visitor' as a named phenomenon: 21st century, popularized by Lewis, Voss, and Nelson (2013)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Winged Humanoid",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Winged humanoid",
+      "subtype": "Bioluminescent flying creature",
+      "variant": "American (Iowa)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "mothman", "name": "Mothman", "relationship": "similar", "description": "Large winged humanoid reported in Point Pleasant, West Virginia in 1966–1967; similar winged, large, flying creature archetype; predates or parallels Mothman reports by 63 years" },
+      { "id": "jersey-devil", "name": "Jersey Devil", "relationship": "similar", "description": "Winged cryptid of the New Jersey Pine Barrens; shares winged, unusual creature archetype" },
+      { "id": "owlman", "name": "Owlman", "relationship": "similar", "description": "British winged humanoid sighted in Cornwall in 1976; shares the large winged humanoid archetype" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 2.0, "max": 2.5, "unit": "meters", "confidence": "low" },
+      "features": [
+        { "feature": "Large bat-like wings", "description": "Wings described as large and leathery, bat-like; witnesses estimated a wingspan of approximately 12–15 feet in some accounts", "frequency": "always" },
+        { "feature": "Bioluminescent horn / light-projecting appendage", "description": "The creature's most distinctive and unusual feature: a blunt horn or projection on its forehead that emitted a powerful beam of bright white light, described as 'as bright as an electric headlight' or like a powerful searchlight", "frequency": "always" },
+        { "feature": "Dark coloration", "description": "Body described as dark — dark brown or black; some witnesses described leathery skin", "frequency": "always" },
+        { "feature": "Powerful offensive odor", "description": "Multiple witnesses reported an overwhelming, powerful, offensive smell accompanying the creature", "frequency": "always" },
+        { "feature": "Large size", "description": "Variously estimated; some accounts compare the creature's size to that of a horse. Height estimates consistent with approximately 8 feet (2.4 m)", "frequency": "always" },
+        { "feature": "Three-toed tracks", "description": "Three-toed footprints found near the abandoned mine shaft were reportedly of unusual size and unlike any known Iowa animal; plaster casts were reportedly made", "frequency": "rare" }
+      ],
+      "morphology": "The Van Meter Visitor is described as a winged humanoid unlike any known animal — large, dark, bat-winged, with the unprecedented feature of a light-projecting horn. This bioluminescent feature is unique in American cryptid accounts and has no clear parallel in known animal biology."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Flight", "description": "Observed in flight on multiple occasions; able to fly rapidly and maneuver in the night sky", "frequency": "always", "evidence_level": "reported" },
+      { "ability": "Bioluminescent light projection", "description": "Emitted a powerful beam of light from the horn on its forehead; unlike any known animal ability", "frequency": "always", "evidence_level": "reported" },
+      { "ability": "Immunity to gunfire", "description": "Multiple witnesses fired rifles and shotguns at the creature; all reported that the shots had no apparent effect", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Offensive odor", "description": "Produced a powerful, nauseating smell described by multiple witnesses", "frequency": "always", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "neutral",
+      "social_structure": "pair",
+      "habitat_preference": ["abandoned mines", "surrounding town areas"],
+      "diet": "Unknown",
+      "patterns": [
+        "Appeared consistently at night over five consecutive nights (September 29 – October 3, 1903)",
+        "Attracted to or moving through the town of Van Meter",
+        "Congregated at the abandoned coal mine — appeared to use it as a refuge or exit point",
+        "Did not directly attack witnesses despite being shot at",
+        "Two specimens observed together at the mine in the final encounter",
+        "Did not return after October 3, 1903"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "American (Iowa), September 29 - October 3, 1903",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Single location: Van Meter, Iowa, USA. No other sightings documented in the area before or after the 1903 incidents.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Van Meter, Dallas County, Iowa"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Van Meter, Iowa (abandoned coal mine)",
+        "location": {
+          "description": "Town of Van Meter, Iowa, and adjacent abandoned coal mine shaft; primary encounter location during the 1903 events",
+          "country": "United States",
+          "region": "Iowa",
+          "coordinates": { "latitude": 41.5286, "longitude": -93.9536 }
+        },
+        "sighting_count": 5,
+        "peak_period": "September 29 – October 3, 1903",
+        "notes": "All documented sightings occurred within the town of Van Meter and at the adjacent abandoned mine. The mine is believed to have been the creature's point of departure; both specimens vanished into it during the final confrontation."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1903-09-29",
+        "circa": false,
+        "source": "Des Moines Daily News contemporary newspaper coverage, late September/early October 1903"
+      },
+      "peak_activity_periods": [
+        { "period": "September 29 – October 3, 1903", "description": "All documented sightings occurred within this five-night window; the creature did not return after October 3, 1903" }
+      ],
+      "seasonal_patterns": "Single five-night occurrence only; no seasonal pattern possible"
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "American (Iowa), September 29 - October 3, 1903",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The Van Meter Visitor has no pre-existing folkloric tradition behind it; it was a specific series of contemporary witness reports in 1903. It exists in a late 19th-century/early 20th-century context of American sensational newspaper coverage and early cryptozoological awareness.",
+      "earliest_accounts": "Contemporary newspaper reports in the Des Moines Daily News and other Iowa newspapers in late September and early October 1903. The original newspaper accounts were rediscovered in the 21st century by Chad Lewis, Noah Voss, and Kevin Lee Nelson.",
+      "folklore_connections": "The Van Meter Visitor predates the Mothman reports by 63 years and shares significant characteristics (large, dark, winged, reports from multiple credible witnesses, associated with a specific location cluster). It belongs to the American winged humanoid cryptid tradition alongside the Mothman, Jersey Devil, and Owlman."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1903-09-29", "event": "First sighting: local businessman Ulysses G. Griffith notices a powerful light coming from atop a building; encounters a large winged creature with a beam of light projecting from its forehead", "significance": "First documented encounter with the Van Meter Visitor", "source": "Des Moines Daily News, early October 1903" },
+      { "date": "1903-09-30", "event": "Bank cashier Clarence Dunn awoken by a bright light entering his home; goes outside armed with a gun, fires at the creature; bullets have no effect", "significance": "Second documented encounter; first documented gunfire at the creature", "source": "Des Moines Daily News, early October 1903" },
+      { "date": "1903-10-01", "event": "Three-toed, unusually large footprints found near an abandoned mine shaft outside of town; reportedly cast in plaster by witnesses", "significance": "Only physical trace evidence from the events", "source": "Des Moines Daily News, early October 1903" },
+      { "date": "1903-10-03", "event": "Multiple armed townspeople confront the creature at the abandoned mine shaft; two specimens observed; all gunfire ineffective; both creatures retreat into the mine and are never seen again", "significance": "Final and most dramatic encounter; end of the Van Meter Visitor events", "source": "Des Moines Daily News, early October 1903" },
+      { "date": "2013-01-01", "event": "Chad Lewis, Noah Voss, and Kevin Lee Nelson publish The Van Meter Visitor: A True and Mysterious Encounter with the Unknown; bring the 1903 events to wide attention by presenting the original newspaper accounts", "significance": "Revival of the case for modern audiences; primary research source presenting original documentation", "source": "Lewis, C., Voss, N. & Nelson, K.L. (2013), The Van Meter Visitor" }
+    ],
+    "modern_era": "Van Meter embraces its cryptid heritage through an annual Visitor's Day festival. The case has attracted significant interest in the winged humanoid cryptid research community, particularly for its unusually detailed contemporary newspaper documentation and the credibility of the named witnesses — professional townspeople rather than anonymous reports."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 5,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 5,
+      "debunked": 0,
+      "date_range": { "earliest": "1903-09-29", "latest": "1903-10-03" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "vmv-sighting-1903-09-29-griffith",
+        "name": "First sighting — U.G. Griffith",
+        "date": { "value": "1903-09-29", "precision": "approximate" },
+        "location": {
+          "description": "Van Meter, Iowa; building rooftop / town center area",
+          "country": "United States",
+          "region": "Iowa",
+          "locality": "Van Meter, Dallas County"
+        },
+        "witnesses": { "count": 1, "types": ["Local businessman (U.G. Griffith)"], "credibility_factors": ["Named witness", "Community business standing", "Contemporary newspaper record"] },
+        "description": "Local businessman Ulysses G. Griffith noticed an intense, powerful light shining from the top of a nearby building. When he went outside to investigate, he encountered a large, dark, winged creature with a bright beam of light projecting from a horn on its forehead. He fired at the creature; it had no visible effect.",
+        "conditions": { "time_of_day": "Night", "visibility": "Dark, apart from the creature's own light" },
+        "evidence": ["Contemporary newspaper account in Des Moines Daily News"],
+        "credibility": { "rating": "medium", "factors": ["Named witness with community standing", "Contemporary newspaper documentation", "Pre-modern hoax infrastructure limited"], "notes": "The account is documented in contemporary newspapers. No physical evidence survives." },
+        "sources": ["Des Moines Daily News (early October 1903)"],
+        "featured": true
+      },
+      {
+        "id": "vmv-sighting-1903-10-03-mine",
+        "name": "Final confrontation at the coal mine",
+        "date": { "value": "1903-10-03", "precision": "approximate" },
+        "location": {
+          "description": "Abandoned coal mine shaft on the outskirts of Van Meter, Iowa",
+          "country": "United States",
+          "region": "Iowa",
+          "locality": "Van Meter, Dallas County"
+        },
+        "witnesses": { "count": 5, "types": ["Multiple armed townspeople"], "credibility_factors": ["Multiple independent witnesses", "Armed group with coordinated response", "Contemporary newspaper record"] },
+        "description": "A group of armed townspeople, having had enough of the nightly visitations, pursued the creature to the abandoned coal mine. There they reportedly encountered not one but two specimens. The group fired repeatedly at both creatures; all shots were ineffective. The creatures turned and descended into the mine shaft, disappearing from view and never returning to Van Meter.",
+        "conditions": { "time_of_day": "Night", "visibility": "Dark; creature's horn light visible" },
+        "evidence": ["Contemporary newspaper account", "Plaster casts of three-toed footprints (unverified current location)"],
+        "credibility": { "rating": "medium", "factors": ["Multiple witnesses", "Contemporary newspaper documentation", "Consistent with preceding sightings"], "notes": "The most dramatic encounter of the series; no physical evidence survives." },
+        "sources": ["Des Moines Daily News (early October 1903)"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "vmv-footprint-casts",
+        "type": "footprint casts",
+        "name": "Three-toed footprint casts",
+        "date": "1903-10-01",
+        "description": "Three-toed, unusually large footprints found near the abandoned mine shaft on October 1, 1903; witnesses reportedly cast them in plaster. Current location of casts unknown.",
+        "location": "Near abandoned coal mine, Van Meter, Iowa",
+        "status": "lost",
+        "analysis": "No surviving cast has been located; the footprints are known only from contemporary newspaper accounts.",
+        "source": "Des Moines Daily News, early October 1903"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "vmv-newspaper-1903",
+        "type": "other",
+        "name": "Des Moines Daily News coverage (October 1903)",
+        "date": "1903-10-01",
+        "description": "Contemporary Iowa newspaper coverage of the Van Meter Visitor events, providing the primary historical documentation for the sightings.",
+        "status": "verified",
+        "analysis": "The newspaper coverage is the primary source for the events. The accounts name witnesses and provide consistent descriptions, distinguishing this case from anonymous or undocumented cryptid reports.",
+        "source": "Des Moines Daily News (October 1903)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Unknown cryptid",
+        "description": "The creature was a genuine unknown animal — a winged cryptid of species and origin unknown. The consistent descriptions by multiple credible witnesses and the bioluminescent horn suggest an entity outside known zoology.",
+        "proponents": ["Chad Lewis", "Noah Voss", "Kevin Lee Nelson"],
+        "evidence_cited": ["Consistency of descriptions across independent witnesses", "Named witnesses with community standing", "Contemporary newspaper documentation", "Immunity to gunfire"]
+      },
+      {
+        "name": "Pterosaur or living prehistoric creature",
+        "description": "Some researchers have proposed the Van Meter Visitor was a surviving pterosaur or related prehistoric flying reptile.",
+        "proponents": ["Some cryptozoological researchers"],
+        "evidence_cited": ["Wing description consistent with pterosaur wing morphology", "Three-toed tracks"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Newspaper sensationalism or fabrication",
+        "description": "Turn-of-the-century American small-town newspapers frequently published sensational or fabricated stories to sell copies. The Van Meter Visitor may be a journalistic fabrication, hoax, or gross exaggeration of a mundane sighting (large owl, escaped animal, etc.).",
+        "proponents": ["Mainstream skeptics"],
+        "evidence_cited": ["No physical evidence survives", "All documentation is newspaper-sourced", "History of sensationalist journalism in late 19th/early 20th century American press"]
+      },
+      {
+        "name": "Misidentification of a large owl or bird",
+        "description": "A large owl (such as a great horned owl) seen at night by people in a state of fear or excitement could produce a significantly exaggerated account. Owls have been misidentified as large creatures before; their eyes can appear to reflect light intensely.",
+        "proponents": ["Naturalistic skeptics"],
+        "evidence_cited": ["Large owl eye reflection can appear bright at night", "Nocturnal behavior consistent with owls", "Near-zero probability of bioluminescent horn in a known animal"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "American winged humanoid cryptid tradition",
+        "Iowa cryptid heritage"
+      ],
+      "stories": [
+        "The five-night encounter of 1903: five consecutive nights of sightings by multiple respected townspeople culminating in the mine confrontation",
+        "The immunity to gunfire: repeated volleys from multiple armed men had no effect — a consistent detail across accounts"
+      ],
+      "beliefs": "Within Van Meter, the 1903 events are now embraced as authentic local history and a source of civic pride. The annual festival celebrates the creature as a local icon."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "The Van Meter Visitor: A True and Mysterious Encounter with the Unknown — Chad Lewis, Noah Voss, Kevin Lee Nelson (2013)"
+      ],
+      "film_tv": [
+        "Featured on numerous cryptid and paranormal documentary programs"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Annual Van Meter Visitor Festival (Van Meter, Iowa) — celebrates the 1903 events",
+        "Van Meter Visitor signage and local tourism"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Chad Lewis", "affiliation": "Independent researcher", "contribution": "Co-author of The Van Meter Visitor (2013); principal researcher who rediscovered and presented the original 1903 newspaper accounts", "period": "2010s" },
+      { "name": "Noah Voss", "affiliation": "Independent researcher", "contribution": "Co-author of The Van Meter Visitor (2013)", "period": "2010s" },
+      { "name": "Kevin Lee Nelson", "affiliation": "Independent researcher", "contribution": "Co-author of The Van Meter Visitor (2013)", "period": "2010s" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "The Van Meter Visitor case is periodically revisited by cryptozoological researchers. No new physical evidence has emerged since 1903."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "lewis-voss-nelson-2013",
+      "type": "book",
+      "title": "The Van Meter Visitor: A True and Mysterious Encounter with the Unknown",
+      "authors": ["Chad Lewis", "Noah Voss", "Kevin Lee Nelson"],
+      "publication": "On the Road Publications",
+      "date": "2013"
+    },
+    {
+      "id": "des-moines-daily-news-1903",
+      "type": "news",
+      "title": "Van Meter creature coverage",
+      "publication": "Des Moines Daily News",
+      "date": "1903-10",
+      "notes": "Contemporary newspaper coverage of the Van Meter Visitor sightings; primary historical source"
+    },
+    {
+      "id": "websearch-van-meter-visitor",
+      "type": "website",
+      "title": "The Van Meter Visitor: Iowa's Winged Mystery of 1903 (web search summary)",
+      "url": "https://northamericancryptids.com/van-meter-monster/",
+      "accessed": "2026-05-08",
+      "notes": "Secondary source summarizing witness names and details from the 1903 newspaper accounts"
+    }
+  ]
 }
